@@ -1,0 +1,13 @@
+# The repository root is already the built, deploy-ready site (index.html + assets/).
+# There is no package.json and nothing to compile, so the build step is a no-op.
+# `command` is set explicitly so it overrides the "npm run build" configured in the
+# Netlify UI, which failed because no package.json exists at the repository root.
+[build]
+  command = "echo 'No build step required: the repository root is the published site.'"
+  publish = "."
+
+# Vite emits content-hashed filenames under /assets, so they can be cached forever.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
