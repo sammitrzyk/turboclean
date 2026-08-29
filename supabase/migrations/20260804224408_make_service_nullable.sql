@@ -1,0 +1,1 @@
+ALTER TABLE quote_leads ALTER COLUMN service DROP NOT NULL;
