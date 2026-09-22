@@ -12,7 +12,7 @@ import { SMS_LINK, TEL_LINK, BUSINESS } from '@/lib/constants';
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 pb-20">
+    <div id="quote" className="min-h-screen bg-slate-950 pb-20">
       <Header />
       <main>
         <Hero />
