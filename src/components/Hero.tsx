@@ -31,7 +31,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg sm:text-xl text-brand-100 mb-5 max-w-xl animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            Dirty siding, stained concrete, or a grimy deck? We remove dirt, algae, mold, and buildup to restore your property's exterior.
+            Leaves piling up? We'll clear the leaves, clean out your landscape beds, remove seasonal debris, and get your entire yard ready for winter.
           </p>
 
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
