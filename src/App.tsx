@@ -13,6 +13,7 @@ import { SMS_LINK, TEL_LINK, BUSINESS } from '@/lib/constants';
 function App() {
   return (
     <div id="quote" className="min-h-screen bg-slate-950 pb-20">
+      <span id="siding" className="block" aria-hidden="true" />
       <Header />
       <main>
         <Hero />
