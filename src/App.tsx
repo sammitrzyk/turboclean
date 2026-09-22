@@ -15,6 +15,7 @@ function App() {
     <div id="quote" className="min-h-screen bg-slate-950 pb-20">
       <span id="siding" className="block" aria-hidden="true" />
       <span id="driveways" className="block" aria-hidden="true" />
+      <span id="deck" className="block" aria-hidden="true" />
       <Header />
       <main>
         <Hero />
