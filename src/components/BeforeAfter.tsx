@@ -36,7 +36,7 @@ export default function BeforeAfter() {
   }, [updateFromClientX]);
 
   return (
-    <section className="py-16 bg-slate-950">
+    <section id="before-after" className="py-16 bg-slate-950">
       <div className="container-max">
         <div className="text-center mb-10">
           <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white mb-3">
